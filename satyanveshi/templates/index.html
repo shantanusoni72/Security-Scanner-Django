@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+{% block body %}
+<div class="container">
+  <div class="row align-items-start">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Spider</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Recon</h6>
+    <p class="card-text">Crawl webpages.</p>
+    <a href="spider/" class="card-link">Scan</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Port Scan</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Scanning</h6>
+    <p class="card-text">Scan remote ports.</p>
+    <a href="portscan/" class="card-link">Scan</a>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Host Discovery</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Recon</h6>
+    <p class="card-text">Discover hosts on networks.</p>
+    <a href="hostdiscovery/" class="card-link">Scan</a>
+  </div>
+</div>
+    </div>
+  </div>
+  
+</div>
+{% endblock body %}
